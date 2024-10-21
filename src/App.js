@@ -13,7 +13,7 @@ function App() {
         radius={5}
       /> */}
       <ReliabilityMap
-        identifier="info"
+        identifier="info_sample_5000_tsne_perplexity_5"
         isLabel= {false}
         showMissing={true}
         showFalse={true}
