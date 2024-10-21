@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import inside from 'point-in-polygon'
+import inside from 'point-in-polygon';
 
 const ReliabilityMap = (props) => {
 
@@ -28,8 +28,11 @@ const ReliabilityMap = (props) => {
 
     console.log(pointsData, edgesData, missingPointsData, knnData) 
 
-    const width = 1000;
-    const height = 1000;
+    
+    // const height = window.innerHeight * 0.9;
+    // const width = height;
+    const height = 500;
+    const width = height;
     const margin = { hor: width / 20, ver: height / 20 };
 
     const [minX, maxX] = d3.extent(pointsData, d => d.coor[0]);
@@ -319,7 +322,7 @@ const ReliabilityMap = (props) => {
                     }
                 )
         }
-    }, []);
+    }, [props]);
    
 
 

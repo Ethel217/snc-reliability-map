@@ -6,9 +6,7 @@ import joblib
 import time
 
 sample_size = 5000
-# perplexities = [5, 10, 20, 30, 40, 50, 60, 70, 80, 90]
-# TODO: change to full list, and change label none to y.asxxx
-perplexities = [5]
+perplexities = [5, 10, 20, 30, 40, 50, 60, 70, 80, 90]
 
 # calc for each
 for perplexity in perplexities:
