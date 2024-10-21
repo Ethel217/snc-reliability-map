@@ -1,8 +1,8 @@
-# Visualization based on Steadiness & Cohesiveness and reliability map
+# Visualization based on [Steadiness & Cohesiveness](https://github.com/hj-n/steadiness-cohesiveness#methods) [and reliability map](https://github.com/hj-n/snc-reliability-map)
 
-Educational implementation for 
+Check original repo for detailed usage.
 
-Check original repo for detailed usage
+Educational implementation for IN4310 Seminar Computer Graphics (2024/25 Q1).
 
 Sampled 5000 points from MNIST dataset, precaculate t-SNE with different perplexities (Same random space).
 
@@ -12,3 +12,6 @@ Flowchart for better understanding of cluster distorsions and its relation with 
 
 ## ChangeLog
 use npm ver 16 LTS
+
+## Citation
+H. Jeon, H.-K. Ko, Y. Kim, J. Jo, and J. Seo, “Measuring and explaining the inter-cluster reliability of multidimensional projections,” IEEE Transactions on Visualization and Computer Graphics (TVCG, Proc. VIS), 2021.
